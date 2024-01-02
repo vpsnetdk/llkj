@@ -1,0 +1,6 @@
+#!/bin/bash
+
+lista="PDirect.py PPub.py menu_credito ultrahost PGet.py cabecalho menu_inst usercodes POpen.py ferramentas payloads v-local.log PPriv.py menu shadowsocks.sh"
+	for arx in $lista; do
+	wget -O $arx https://raw.githubusercontent.com/emirjorge/Script-Z/master/CHUMO/Lista/$arx &> /dev/null
+	done
